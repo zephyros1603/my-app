@@ -49,7 +49,7 @@ const Section1 = ({scrollYProgress}) => {
   return (
     <motion.div style={{scale, rotate}} className="sticky top-0 h-screen bg-[#0e285c] text-white flex flex-col justify-center px-20">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-7xl font-bold mb-6">Hi, I'm <span className="text-yellow-400">Your Name</span></h1>
+        <h1 className="text-7xl font-bold mb-6">Hi, I&apos;m <span className="text-yellow-400">Your Name</span></h1>
         <h2 className="text-4xl mb-8">
         Frontend Developer & Designer
           {/* <DecryptedText text={"Frontend Developer & Designer"}  speed={150} animateOn="view"/> */}
@@ -161,7 +161,7 @@ const Section2 = ({scrollYProgress}) => {
 
       {/* Right Section - Contact Form */}
       <div className="w-1/2 p-12 flex flex-col justify-center">
-        <h2 className="text-4xl font-bold mb-6">Let's Connect</h2>
+        <h2 className="text-4xl font-bold mb-6">Let&apos;s Connect</h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
             <input 
